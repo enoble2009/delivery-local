@@ -20,11 +20,22 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'Iniciar sesión',
+      url: '/login',
+      icon: 'contact'
+    },
+    {
+      title: 'Comidas',
+      url: '/food',
+      icon: 'restaurant'
+    },
+    {
+      title: 'Farmacias',
+      url: '/health',
+      icon: 'medkit'
     }
   ];
+
 
   constructor(
     private platform: Platform,

@@ -1,0 +1,29 @@
+ion-content {
+    padding: 15px;
+}
+
+ion-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    ion-item {
+
+        ion-label[market-name] {
+            color: black;
+        }
+        ion-label[market-time], ion-label[market-phone] {
+            font-size: 12px;
+        }
+        ion-label[market-time] {
+            color: grey;
+        }
+        ion-label[market-phone] {
+            color: black;
+        }
+    }
+    ion-item:hover {
+        border: 1px solid lightgrey;
+        //border-radius: 10px;
+    }
+}
